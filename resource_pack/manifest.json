@@ -1,0 +1,23 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "NationCraft Resource Pack",
+    "description": "NationCraft textures, models, UI assets, and other client resources.",
+    "uuid": "215d0d7e-4d97-4bbb-9b34-0af2a7e24b35",
+    "version": [0, 1, 0],
+    "min_engine_version": [1, 26, 40],
+    "pack_scope": "world"
+  },
+  "modules": [
+    {
+      "description": "NationCraft resources",
+      "type": "resources",
+      "uuid": "bf7d2336-6be7-4268-8c24-77e2c5e3977d",
+      "version": [0, 1, 0]
+    }
+  ],
+  "metadata": {
+    "authors": ["PastaHimself"],
+    "product_type": "addon"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "NationCraft Behavior Pack",
+    "description": "NationCraft gameplay systems and Script API logic.",
+    "uuid": "b7bc5743-b6d0-4cda-8566-b63f7aae38bc",
+    "version": [0, 1, 0],
+    "min_engine_version": [1, 26, 40]
+  },
+  "modules": [
+    {
+      "description": "NationCraft behavior data",
+      "type": "data",
+      "uuid": "4876c1cc-d13a-44ba-8841-3c8f51b83c9e",
+      "version": [0, 1, 0]
+    },
+    {
+      "description": "NationCraft Script API entry point",
+      "type": "script",
+      "language": "javascript",
+      "uuid": "d1c1fbf4-e806-4a75-83d3-bba1af9b0a17",
+      "version": [0, 1, 0],
+      "entry": "scripts/main.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "215d0d7e-4d97-4bbb-9b34-0af2a7e24b35",
+      "version": [0, 1, 0]
+    },
+    {
+      "module_name": "@minecraft/server",
+      "version": "2.9.0"
+    }
+  ],
+  "metadata": {
+    "authors": ["PastaHimself"],
+    "product_type": "addon"
+  }
+}
